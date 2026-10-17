@@ -37,7 +37,6 @@ public class GameEngine {
             gameOver = true;
             return new GuessResult(false, "Game Over! You've used all " + MAX_ATTEMPTS + " attempts. The number was " + target + ".", attempts);
         } else {
-        } else {
             String hint = getHint(guess);
             int remaining = MAX_ATTEMPTS - attempts;
             GuessResult result;
