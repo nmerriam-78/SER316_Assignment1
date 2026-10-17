@@ -4,22 +4,16 @@ public class GameEngine {
     private int target;
     private int attempts;
     private boolean gameWon;
-<<<<<<< HEAD
     private boolean userQuit;
-=======
     private boolean hintsEnabled;
->>>>>>> c4fddac (Add hint system to show proximity after 3 attempts)
 
     public GameEngine(int min, int max) {
         this.min = min;
         this.max = max;
         this.attempts = 0;
         this.gameWon = false;
-<<<<<<< HEAD
         this.userQuit = false;
-=======
         this.hintsEnabled = true;
->>>>>>> c4fddac (Add hint system to show proximity after 3 attempts)
         reset();
     }
 
